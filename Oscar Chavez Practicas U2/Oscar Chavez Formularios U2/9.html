@@ -1,0 +1,154 @@
+<html>
+
+<head>
+    <title>Formulario 9</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html{
+            background-color: #ffff;
+            font-family: Poppins;
+        }
+ 
+        #caja {
+            width: 500px;
+            height:500px;
+            background-color: #FFFF;
+            padding: 10px;
+            margin-left:10px ;
+            margin-top: 10px;
+            opacity: 0.8;
+            border-radius: 10px;
+        }
+
+        .bot{
+            width: 120px;
+            height: 30px;
+            background-color: #FFAC53;
+            box-shadow: 5px 5px 5px #633300;
+        }
+        p{
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="caja">
+        <form style="background-color: #FAFFA0;">
+        <p>
+            <font size=5px>Formulario de alta</font>
+        </p>
+        <fieldset>
+            <table>
+                <tr>
+                    <td>
+                        <h5>Nombre y apellido <font color="red">*</font>
+                        </h5>
+                    </td>
+                    <td><input type="text">
+                        <font size="1px"><br> Nombre</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="text" size="45px">
+                        <font size="1px"> <br>Primer apellido</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="text" size="45px">
+                        <font size="1px"> <br>Segundo apellido</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <font size="2px">&nbsp;</font>
+                    </td>
+                </tr>
+                <tr bgcolor="#FEFF99">
+                    <td>
+                        <h5>Direccion <font color="red">*</font>
+                            </h5</td>
+                    <td><input type="text" required>
+                        <font size="1px"><br> Calle,numero,piso,puerta</font>
+                    </td>
+                    <td><font size="1px">El còdigo postal es <br> imprescindible para poder <br> reducir los pedidos</font></td>
+                </tr>
+                <tr bgcolor="#FEFF99">
+                    <td></td>
+                    <td><input type="text" size="10px">
+                        <font size="1px"> <br> Código postal</font>
+                    </td>
+                    <td><input type="text" size="10px">
+                        <font size="1px"><br> Municipio</font>
+                    </td>
+                </tr>
+                <tr bgcolor="#FEFF99">
+                    <td></td>
+                    <td><select size="1">
+                            <option>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </option>
+                        </select>
+                        <font size="1px"><br> Provincia</font>
+                    </td>
+                    <td><select>
+                            <option>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </option>
+                        </select>
+                        <font size="1px"><br> País</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <font size="2px">&nbsp;</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Email</h5>
+                    </td>
+                    <td><input type="text" size="45px"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <font size="2px">&nbsp;</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Telefono<font color="red">*</font>
+                        </h5>
+                    </td>
+                    <td><input type="text">
+                        <font size="1px"><br>Fijo</font>
+                    </td>
+                    <td>
+                        <input type="text">
+                        <font size="1px"><br>Móvil</font>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <table>
+            <tr>
+                <td width="500px">&nbsp;</td>
+                <td><button class="bot">Darme de alta -></button></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    
+</body>
+</html>
